@@ -1,0 +1,38 @@
+<div class="skills">
+				<h3 class="title">Personal Skills</h3>
+				<ul>
+					<li>
+						<span class="text">Menganalisis Data</span>
+					</li>
+					<li>
+						<span class="text">Mempresentasikan Data</span>
+					</li>
+					<li>
+						<span class="text">Kreatif dan Inovatif</span>
+					</li>
+					<li>
+						<span class="text">Komunikasi</span>
+					</li>
+					<li>
+						<span class="text">Kolaborasi</span>
+					</li>
+				</ul>
+			</div>
+
+
+.skills{
+	padding-top: 18px;
+}
+.skills ul{
+	position: relative;	
+}
+.skills ul li{
+	position: relative;
+	list-style: none;
+	margin: 5px 0;
+	cursor: pointer;
+}
+.skills ul li .text{
+	color: #fff;
+	font-weight: 200;
+}

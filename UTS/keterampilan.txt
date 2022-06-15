@@ -1,0 +1,57 @@
+			<div class="keterampilan">
+				<h3 class="title">Keterampilan</h3>
+				<ul>
+					<li>
+						<span class="icon"><i class="fa fa-code" aria-hidden="true"></i></span>
+						<span class="text">Python</span>
+					</li>
+					<li>
+						<span class="icon"><i class="fa fa-database" aria-hidden="true"></i></span>
+						<span class="text">Database</span>
+					</li>
+					<li>
+						<span class="icon"><i class="fa fa-picture-o" aria-hidden="true"></i></span>
+						<span class="text">Adobe Photoshop</span>
+					</li>
+					<li>
+						<span class="icon"><i class="fa fa-film" aria-hidden="true"></i></span>
+						<span class="text">Adobe Animate</span>
+					</li>
+					<li>
+						<span class="icon"><i class="fa fa-picture-o" aria-hidden="true"></i></span>
+						<span class="text">CorelDraw</span>
+					</li>
+					<li>
+						<span class="icon"><i class="fa fa-html5" aria-hidden="true"></i></span>
+						<span class="text">HTML</span>
+					</li>
+					<li>
+						<span class="icon"><i class="fa fa-css3" aria-hidden="true"></i></span>
+						<span class="text">CSS</span>
+					</li>
+				</ul>
+			</div>
+
+
+.keterampilan{
+	padding-top: 18px;
+}
+.keterampilan ul{
+	position: relative;	
+}
+.keterampilan ul li{
+	position: relative;
+	list-style: none;
+	margin: 5px 0;
+	cursor: pointer;
+}
+.keterampilan ul li .icon{
+	display: inline-block;
+	width: 30px;
+	font-size: 16px;
+	color: lightblue;
+}
+.keterampilan ul li .text{
+	color: #fff;
+	font-weight: 200;
+}
